@@ -1,25 +1,23 @@
-@"
-# Learn Solidity – Complete Course Outline
+# Learn Solidity – Complete Course Outline (from slide)
 
-## Topics covered (from video)
+## Course Sections (folders shown in video)
 
-| Section | Topic | Brief description |
-|---------|-------|-------------------|
-| 0 | Smart Contracts | How smart contracts communicate, goals of smart contracts |
-| 1a | Value Types | Integers, booleans, addresses, etc. |
-| 1b | Storage Variables | Where and how data is stored on-chain |
-| 1c | Functions | Function syntax, visibility, modifiers |
-| 2 | Sending Ether | How contracts receive and send ETH |
-| 3 | Reverting Transactions | Using require, revert, assert |
-| 4 | Callback Data | Understanding calldata and msg.data |
-| 5 | Escrow | Building an escrow contract |
-| 6 | Arrays | Dynamic vs fixed-size arrays |
-| 7 | Structs | Creating custom data types |
-| 8 | Mappings | Key-value storage patterns |
-| 9 | Voting | Building a voting DApp |
-| 10 | Inheritance | Contract inheritance and overriding |
+| # | Section Name | What we'll build/learn |
+|---|--------------|------------------------|
+| 0 | smart-contracts | Contract basics, address book concept |
+| 1 | solidity-types-and-functions | Value types, storage, functions |
+| 2 | sending-ether | Sending and receiving ETH |
+| 3 | reverting-transactions | require(), revert(), assert() |
+| 4 | callback | Understanding calldata and callbacks |
+| 5 | escrow | Escrow contract pattern |
+| 6 | arrays | Dynamic and fixed-size arrays |
+| 7 | structs | Custom data structures |
+| 8 | mappings | Key-value storage |
+| 9 | voting | Complete voting DApp |
+| 10 | inheritance | Contract inheritance |
+| 11 | wrap-up | Course summary |
 
-## Tools used
-- **Marp** – for presentations/slides
-- **Foundry** – for live coding examples and understanding behind-the-scenes
-"@ | Out-File -FilePath course-materials\notes\course-outline.md -Encoding utf8
+## Tools
+- Presentations: https://github.com/alchemyplatform/learn-solidity-presentations
+- Marp Tool: https://marp.app/
+- Foundry: https://book.getfoundry.sh/
