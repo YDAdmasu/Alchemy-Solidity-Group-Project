@@ -18,6 +18,7 @@ contract Agreement {
     }
 }
 
+---
 
 Deploying a Contract
 
@@ -26,7 +27,7 @@ Deploying a Contract
     ✉️ Send a transaction containing the bytecode to an EVM node
 
     🏡 The node calculates an address for your new contract
-
+---
 Contract Deployment
 
 (Image placeholder – you can add a screenshot later)
@@ -35,7 +36,7 @@ Opcode	Name	Description	Gas
 0x01	ADD	Addition operation	3
 0x02	MUL	Multiplication operation	5
 0x03	SUB	Subtraction operation	3
-
+---
 EVM Opcodes Reference
 Key Takeaways (Deployment)
 
@@ -46,10 +47,8 @@ Key Takeaways (Deployment)
     📭 The to field is left blank to deploy a contract
 
     🏡 Your contract will have an address, balance, and runtime bytecode
+---
 
-Transaction Life Cycle
-
-(Image placeholder)
 Key Takeaways (Transactions)
 
     🥾 Transactions begin at an EOA (Externally Owned Account)
@@ -61,7 +60,7 @@ Key Takeaways (Transactions)
     🎯 Transactions send calldata, targeting a contract method
 
     🌐 Smart contracts can call each other within the same transaction
-
+---
 Detailed Notes (Alchemy University)
 How Contract Deployment Works (Expanded)
 
@@ -74,6 +73,7 @@ How Contract Deployment Works (Expanded)
     EVM node deploys the contract to a new address
 
     Contract can store values and keep state across transactions
+    ---
 
 EVM Opcodes & Gas (Detailed)
 
@@ -86,13 +86,13 @@ EVM Opcodes & Gas (Detailed)
     Simple opcodes have fixed gas
 
     Complex opcodes (like SSTORE) have variable gas and may offer gas refunds (e.g., clearing a storage slot)
-
+---
 Important distinction:
 
     Gas cost per opcode = deterministic
 
     Gas price (in ETH or native currency) = fluctuates based on market
-
+---
 Transaction Structure
 Field	Description
 from	EOA address that signs the transaction
@@ -102,6 +102,7 @@ gas	Max gas units the sender is willing to use
 gasPrice	Amount paid per unit of gas
 data	Calldata (method signature + arguments) or creation bytecode
 signature	Cryptographic proof of authenticity
+---
 Message Calls
 
     A transaction can trigger a chain of contract calls (Contract A → B → C → …)
@@ -109,7 +110,7 @@ Message Calls
     All happen within the same transaction
 
     The transaction only finalizes after the entire call stack returns
-
+---
 Useful Resource
 
     evm.codes – interactive EVM opcode reference
