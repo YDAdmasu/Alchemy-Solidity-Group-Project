@@ -6,31 +6,30 @@ marp: true
 
 A smart contract is blockchain-deployed code. For example:
 
-```js
+```solidity
 contract Agreement {
-  address recipient;
-  bool conditionIsMet;
+    address recipient;
+    bool conditionIsMet;
 
-  function payout() external {
-    if(conditionIsMet) {
-      sendValue(recipient);
+    function payout() external {
+        if (conditionIsMet) {
+            sendValue(recipient);
+        }
     }
-  }
-
-  // ...
 }
 
-eploying a Contract
 
-    ⚙️ compile your solidity to bytecode
+Deploying a Contract
 
-    ✉️ send a transaction containing the bytecode to an EVM node
+    ⚙️ Compile your Solidity to bytecode
 
-    🏡 the node calculates an address for your new contract
+    ✉️ Send a transaction containing the bytecode to an EVM node
+
+    🏡 The node calculates an address for your new contract
 
 Contract Deployment
 
-(Image would go here – you can skip or add later)
+(Image placeholder – you can add a screenshot later)
 Opcode	Name	Description	Gas
 0x00	STOP	Halts execution	0
 0x01	ADD	Addition operation	3
@@ -38,7 +37,7 @@ Opcode	Name	Description	Gas
 0x03	SUB	Subtraction operation	3
 
 EVM Opcodes Reference
-Key Takeaways
+Key Takeaways (Deployment)
 
     ⚙️ Contracts are compiled to creation bytecode
 
@@ -46,14 +45,14 @@ Key Takeaways
 
     📭 The to field is left blank to deploy a contract
 
-    🏡 Your contract will have an address, balance and runtime bytecode
+    🏡 Your contract will have an address, balance, and runtime bytecode
 
 Transaction Life Cycle
 
 (Image placeholder)
-Key Takeaways (Transaction)
+Key Takeaways (Transactions)
 
-    🥾 Transactions begin at an EOA
+    🥾 Transactions begin at an EOA (Externally Owned Account)
 
     ☝️ Transactions occur sequentially
 
@@ -61,7 +60,7 @@ Key Takeaways (Transaction)
 
     🎯 Transactions send calldata, targeting a contract method
 
-    🌐 Similarly smart contracts can call each other within the one transaction
+    🌐 Smart contracts can call each other within the same transaction
 
 Detailed Notes (Alchemy University)
 How Contract Deployment Works (Expanded)
@@ -82,7 +81,7 @@ EVM Opcodes & Gas (Detailed)
 
     Each opcode consumes a certain amount of gas
 
-    Gas cost is deterministic (can be pre‑calculated) based on the opcodes used
+    Gas cost is deterministic – can be pre‑calculated based on the opcodes used
 
     Simple opcodes have fixed gas
 
@@ -105,7 +104,7 @@ data	Calldata (method signature + arguments) or creation bytecode
 signature	Cryptographic proof of authenticity
 Message Calls
 
-    A transaction can trigger a chain of contract calls (Contract A → B → C → ...)
+    A transaction can trigger a chain of contract calls (Contract A → B → C → …)
 
     All happen within the same transaction
 
