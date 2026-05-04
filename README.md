@@ -5,8 +5,8 @@ Collaborative submission for the Alchemy University "Learn Solidity" course as p
 
 1. **Clone** the repo
 2. Follow the [Alchemy Solidity Course](https://university.alchemy.com/)
-3. Save code in appropriate `codebases/chapter-X/` folders
-4. Take screenshots of completed milestones into `screenshots/week-X/`
+3. Save code in appropriate `codebases/course_title/` folders
+4. Take screenshots of completed milestones into `screenshots/name_of_student/`
 5. Commit and push regularly
 
 ##  Proof of Completion
