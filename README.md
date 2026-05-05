@@ -1,24 +1,65 @@
-# Alchemy-Solidity-Group-Project
-Collaborative submission for the Alchemy University "Learn Solidity" course as part of a group project (5 members, 10% weighting). This repository contains all course materials, developed codebases, progress screenshots, and organized resources. Each member has contributed publicly to document and complete the full Solidity curriculum.
+# Alchemy Solidity Group Project
 
-## How to Use This Repo
+This repository contains the collaborative work for the Alchemy University Solidity course. It is organized by course chapter, with code examples, notes, reference materials, and student screenshot folders kept in separate directories.
 
-1. **Clone** the repo
-2. Follow the [Alchemy Solidity Course](https://university.alchemy.com/)
-3. Save code in appropriate `codebases/course_title/` folders
-4. Take screenshots of completed milestones into `screenshots/name_of_student/`
-5. Commit and push regularly
+## Group Members
 
-##  Proof of Completion
+- Abdulhafiz Seid - UGR/30029/15
+- Hiba Ahmedhussen - UGR/30679/15
+- Samuel Aklilu - UGR/31181/15
+- Yididiya Admasu - UGR/31407/15
 
-Each member will add screenshots showing:
-- Deployed contracts on Remix / local network
-- Test passing outputs
-- Completed quiz checkmarks
-## 🔧 Running the Code
+## Current Folder Structure
 
-Open any `.sol` file in [Remix IDE](https://remix.ethereum.org/) or use Hardhat.
+```text
+README.md
+codebases/
+	Chapter-1-Solidity-Introduction/
+		0-smart-contracts/
+			Counter.sol
+		1a-value-types/
+		1b-storage-variables/
+		1c-functions/
+	Chapter-2-Address-Interactions/
+		2-sending-ether/
+		3-reverting-transactions/
+		4-callback-data/
+		5-escrow/
+	Chapter-3-Reference-Types/
+		1_arrays/
+		2_structs/
+		3_mappings/
+	chapter-4-Voting Smart Contract/
+		Inheritance/
+		Voting/
+course-materials/
+	notes/
 
----
+	resources/
+		course-links.md
+	slides/
+		1-Solidity-Introduction/
+		2-Address-Interactions/
+		3-Reference-Types/
+		4-Voting-Smart-Contract/
+screenshots/
+	Abdulhafiz/
+	Hiba/
+	sami/
+	Yididiya/
+```
+## How To Use This Repo
 
-*This repo is part of a graded group project – all contributions are visible via Git history.*
+1. Clone the repository.
+2. Follow the Alchemy Solidity course materials.
+3. Add code examples to the matching folder under `codebases/`.
+4. Save progress screenshots in the matching folder under `screenshots/`.
+5. Keep commits focused and push regularly.
+
+## Proof Of Completion
+
+Each member can document progress with screenshots showing deployed contracts, passing tests, and completed exercises.
+
+## Running The Code
+
+Open any `.sol` file in Remix IDE or use your preferred Solidity toolchain locally.
