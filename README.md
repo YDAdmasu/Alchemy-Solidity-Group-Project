@@ -1,4 +1,4 @@
-# Alchemy Solidity Group Project
+# Blockchain Alchemy Solidity Group Project
 
 This repository contains the collaborative work for the Alchemy University Solidity course. It is organized by course chapter, with code examples, notes, reference materials, and student screenshot folders kept in separate directories.
 
@@ -9,7 +9,7 @@ This repository contains the collaborative work for the Alchemy University Solid
 - Samuel Aklilu - UGR/31181/15
 - Yididiya Admasu - UGR/31407/15
 
-## Current Folder Structure
+##Folder Structure
 
 ```text
 README.md
@@ -56,9 +56,6 @@ screenshots/
 4. Save progress screenshots in the matching folder under `screenshots/`.
 5. Keep commits focused and push regularly.
 
-## Proof Of Completion
-
-Each member can document progress with screenshots showing deployed contracts, passing tests, and completed exercises.
 
 ## Running The Code
 
