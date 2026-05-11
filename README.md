@@ -4,10 +4,10 @@ This repository contains the collaborative work for the Alchemy University Solid
 
 ## Group Members
 
-- Abdulhafiz Seid - UGR/30029/15
-- Hiba Ahmedhussen - UGR/30679/15
-- Samuel Aklilu - UGR/31181/15
-- Yididiya Admasu - UGR/31407/15
+- Abdulhafiz Seid - UGR/30029/15   -sec 3
+- Hiba Ahmedhussen - UGR/30679/15   -sec 3
+- Samuel Aklilu - UGR/31181/15      -sec 3
+- Yididiya Admasu - UGR/31407/15     -sec 3
 
 ##Folder Structure
 
